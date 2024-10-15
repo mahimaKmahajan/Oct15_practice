@@ -29,6 +29,10 @@ Bonds_dataset$Votes_Total <- Bonds_dataset$VotesFor + Bonds_dataset$VotesAgainst
 which.max(Bonds_dataset$Votes_Total)
 
 
+
+Hello its Ryann!!!!
+
+
 ### Question 3 ###
 # Created a subset with provided limits
 votes <- Bonds_dataset[Bonds_dataset$Votes_Total>=100 & Bonds_dataset$Result=="Carried",]
